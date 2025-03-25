@@ -10,14 +10,6 @@ let año = tiempoActualHecho.getFullYear();
 let hora = tiempoActualHecho.getHours();
 let minutos = tiempoActualHecho.getMinutes(); 
 let segundos = tiempoActualHecho.getSeconds(); 
-// SEGUIR QUE ESTA MAL
-const borrar = document.querySelectorAll(".borra")
-borrar.forEach(element =>{
-    element.addEventListener("click", () =>{
-        BorrarTarea(element.id)
-        console.log(arrayTareas)
-    })
-})
 
 
 let fechaYHora = `${dia}/${mes}/${año} ${hora}:${minutos}:${segundos}`;
@@ -52,6 +44,15 @@ document.querySelector(".tab-content").innerHTML = ""
           
         </div>`});
     i++
+    // SEGUIR QUE ESTA MAL
+let borrar = document.querySelectorAll(".borra")
+borrar.forEach(element =>{
+    element.addEventListener("click", () =>{
+        BorrarTarea(element.id)
+        console.log(arrayTareas)
+    })
+})
+
 })
 
 
