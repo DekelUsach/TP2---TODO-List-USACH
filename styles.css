@@ -1,3 +1,6 @@
+*{
+  font-family: 'Montserrat';
+}
 .gradient-custom {
     background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
       linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
@@ -10,4 +13,25 @@
   .fecha{
    display: flex;
    margin-left: auto;
+  }
+  .tareaRapida{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: red;
+font-weight: bold;
+  }
+#btn-fast{
+  background-color: #00FFFF;
+  border-color: #00FFFF;
+}
+#btn-add{
+  background-color: #51d500;
+  border-color: #51d500;
+}
+  #btn-borrar{
+    background-color: red;
+    border-color: red;
   }
