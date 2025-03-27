@@ -35,3 +35,7 @@ font-weight: bold;
     background-color: red;
     border-color: red;
   }
+
+  #tarea-container{
+    margin-bottom: 10px;
+  }

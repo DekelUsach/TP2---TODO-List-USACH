@@ -74,10 +74,10 @@ function MostrarTareas() {
     arrayTareas.forEach(element => {
         if (element.status === 0) {
             contenido.innerHTML += `
-            <div class="tab-pane fade show active">
+            <div class="tab-pane fade show active" id ="tarea-container">
                 <ul class="list-group mb-0">
             
-                    <li class="list-group-item d-flex align-items-center border-0 mb-2 rounded" style="background-color: #f4f6f7;">
+                    <li class="list-group-item d-flex align-items-center border-0 m.b-2 rounded" style="background-color: #f4f6f7;">
 
                         <input class="form-check-input" type="checkbox" id="${element.id}" />
                         <p class="tarea-titulo" style="text-decoration: none;"> ${element.nombre}</p>
